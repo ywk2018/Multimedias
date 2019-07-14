@@ -24,6 +24,32 @@
         android:id="@+id/btn_stop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="停止播放">
+        android:text="重置播放">
     </Button>
+
+    <Button
+        android:id="@+id/btn_start_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放视频">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_pause_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止播放视频">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_stop_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从头播放视频">
+    </Button>
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
